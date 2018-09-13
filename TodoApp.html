@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="input-group">
+                            <input type="text" id="txtItem" class="form-control" title="title">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button" id="btnCreate">Ekle</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-3">
+                    <div class="card-header">
+                        Listem
+                        <button id="deleteAll" class="btn btn-danger btn-sm d-none">Delete All</button>
+                    </div>
+                    <ul id="myList" class="list-group list-group-flush">
+                        <!--<li class="list-group-item checked">İtem1
+                        <span class="close">x</span>
+                        </li>
+                        <li class="list-group-item">İtem2</li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+    <script type="text/javascript" src="script.js"></script>
+</html>
